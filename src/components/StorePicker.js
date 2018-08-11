@@ -1,6 +1,5 @@
 import React from 'react';
 import { getFunName } from '../helpers'
-import { runInThisContext } from 'vm';
 
 /* 
     If we try to access 'this' from any user defined functions, the value will be undefined.
